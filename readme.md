@@ -37,13 +37,14 @@ In `constants.m`, update:
 
 
 After that, load it up in xcode and give it a while
-Please feel free to file an issue if it doesn't work.
+Please file an issue if it doesn't work.
+
 ### Universal app
 
-This app will run on both iPhone and iPad. 
+This app will run on both iPhone and iPad.  (mainly tested on iphone though)
 
 ### Known issues:
-- There is no network check, no network, no results, no error message
+- There is no network check --  no network, no results, no error message
 - If the GPS does not have a good fix, the map region zoom level is wonky
 - iPad UI needs work
 - If left running for a long time, images fail to download. This probably has something to do with the not-very-robust ImageView category running out of retries.
