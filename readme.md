@@ -3,7 +3,7 @@
 
 ## Find Instagram photos near me
 
-# README 
+### README 
 
 This sample app retrieves a list of images within a search radius around the user's location, using the Instagram media search api. The results are displayed on a map,
 which you can then touch to view the photos in a separate view controller.
@@ -19,12 +19,12 @@ When I started doing that I thought maybe I could use `typedef`s to hide this be
 but you can't write a category on a typedef'd object. Next time I will subclass NSDictionary!
 
 
-# Prerequisites
+### Prerequisites
 
 - XCode 5.x
 - ios 7.1
 
-# Running the app
+### Running the app
 
 To use this app set the Instagram Client ID  in `constants.m`
 You can get one of these by signing up for Instagram and going to their developer
@@ -33,22 +33,21 @@ pages at http://instagram.com/developer/
 In `constants.m`:
 
 `
-    /**
-     * Instagram authentication credentials - client id
-      */
+            /**
+             * Instagram authentication credentials - client id
+             */
 
-     NSString* const kInstagramClientId              = @"YOUR_CLIENT_ID";
+             NSString* const kInstagramClientId              = @"YOUR_CLIENT_ID";
 
 `
 
 After that, load it up in xcode and give it a while
 Please feel free to file an issue if it doesn't work.
-# Universal app
+### Universal app
 
 This app will run on both iPhone and iPad. 
 
-
-# Known issues:
+### Known issues:
 - There is no network check, no network, no results, no error message
 - If the GPS does not have a good fix, the map region zoom level is wonky
 - iPad UI needs work
