@@ -30,13 +30,10 @@ To use this app set the Instagram Client ID  in `constants.m`
 You can get one of these by signing up for Instagram and going to their developer
 pages at http://instagram.com/developer/
 
-In `constants.m`:
+In `constants.m`, update: 
 
 `
-            /**
-             * Instagram authentication credentials - client id
-             */
-             NSString* const kInstagramClientId              = @"YOUR_CLIENT_ID";
+     NSString* const kInstagramClientId              = @"YOUR_CLIENT_ID";
 
 `
 
