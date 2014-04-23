@@ -1,0 +1,98 @@
+\hypertarget{interface_reachability}{\section{Reachability Class Reference}
+\label{interface_reachability}\index{Reachability@{Reachability}}
+}
+
+
+Inheritance diagram for Reachability\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{interface_reachability__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Reachability\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{interface_reachability__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_reachability_ae20732960a222681fcc7caeb191158bc}{start\-Notifier}
+\item 
+\hypertarget{interface_reachability_ab7907e9c8de0e4e15774e82c089e0b39}{(void) -\/ {\bfseries stop\-Notifier}}\label{interface_reachability_ab7907e9c8de0e4e15774e82c089e0b39}
+
+\item 
+\hypertarget{interface_reachability_a8396438436e7ff3770039fb527cd1d34}{(Network\-Status) -\/ {\bfseries current\-Reachability\-Status}}\label{interface_reachability_a8396438436e7ff3770039fb527cd1d34}
+
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_reachability_a731496d70dd8bfbd1b364df13cac2b4c}{connection\-Required}
+\end{DoxyCompactItemize}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(instancetype) + \hyperlink{interface_reachability_a4e729345411817f077d873ee82c62a8a}{reachability\-With\-Host\-Name\-:}
+\item 
+(instancetype) + \hyperlink{interface_reachability_a10eca399184adb3a360296b236406257}{reachability\-With\-Address\-:}
+\item 
+(instancetype) + \hyperlink{interface_reachability_aba5c531ea84e2f6ed6b1cb25f0c87404}{reachability\-For\-Internet\-Connection}
+\item 
+(instancetype) + \hyperlink{interface_reachability_ad23f99b42e28143e250850196cccce70}{reachability\-For\-Local\-Wi\-Fi}
+\end{DoxyCompactItemize}
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_reachability_a731496d70dd8bfbd1b364df13cac2b4c}{\index{Reachability@{Reachability}!connection\-Required@{connection\-Required}}
+\index{connection\-Required@{connection\-Required}!Reachability@{Reachability}}
+\subsubsection[{connection\-Required}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) connection\-Required 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_reachability_a731496d70dd8bfbd1b364df13cac2b4c}
+W\-W\-A\-N may be available, but not active until a connection has been established. Wi\-Fi may require a connection for V\-P\-N on Demand. \hypertarget{interface_reachability_aba5c531ea84e2f6ed6b1cb25f0c87404}{\index{Reachability@{Reachability}!reachability\-For\-Internet\-Connection@{reachability\-For\-Internet\-Connection}}
+\index{reachability\-For\-Internet\-Connection@{reachability\-For\-Internet\-Connection}!Reachability@{Reachability}}
+\subsubsection[{reachability\-For\-Internet\-Connection}]{\setlength{\rightskip}{0pt plus 5cm}+ (instancetype) reachability\-For\-Internet\-Connection 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_reachability_aba5c531ea84e2f6ed6b1cb25f0c87404}
+Checks whether the default route is available. Should be used by applications that do not connect to a particular host. \hypertarget{interface_reachability_ad23f99b42e28143e250850196cccce70}{\index{Reachability@{Reachability}!reachability\-For\-Local\-Wi\-Fi@{reachability\-For\-Local\-Wi\-Fi}}
+\index{reachability\-For\-Local\-Wi\-Fi@{reachability\-For\-Local\-Wi\-Fi}!Reachability@{Reachability}}
+\subsubsection[{reachability\-For\-Local\-Wi\-Fi}]{\setlength{\rightskip}{0pt plus 5cm}+ (instancetype) reachability\-For\-Local\-Wi\-Fi 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_reachability_ad23f99b42e28143e250850196cccce70}
+Checks whether a local Wi\-Fi connection is available. \hypertarget{interface_reachability_a10eca399184adb3a360296b236406257}{\index{Reachability@{Reachability}!reachability\-With\-Address\-:@{reachability\-With\-Address\-:}}
+\index{reachability\-With\-Address\-:@{reachability\-With\-Address\-:}!Reachability@{Reachability}}
+\subsubsection[{reachability\-With\-Address\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (instancetype) reachability\-With\-Address\-: 
+\begin{DoxyParamCaption}
+\item[{(const struct sockaddr\-\_\-in $\ast$)}]{host\-Address}
+\end{DoxyParamCaption}
+}}\label{interface_reachability_a10eca399184adb3a360296b236406257}
+Use to check the reachability of a given I\-P address. \hypertarget{interface_reachability_a4e729345411817f077d873ee82c62a8a}{\index{Reachability@{Reachability}!reachability\-With\-Host\-Name\-:@{reachability\-With\-Host\-Name\-:}}
+\index{reachability\-With\-Host\-Name\-:@{reachability\-With\-Host\-Name\-:}!Reachability@{Reachability}}
+\subsubsection[{reachability\-With\-Host\-Name\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (instancetype) reachability\-With\-Host\-Name\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String $\ast$)}]{host\-Name}
+\end{DoxyParamCaption}
+}}\label{interface_reachability_a4e729345411817f077d873ee82c62a8a}
+Use to check the reachability of a given host name. \hypertarget{interface_reachability_ae20732960a222681fcc7caeb191158bc}{\index{Reachability@{Reachability}!start\-Notifier@{start\-Notifier}}
+\index{start\-Notifier@{start\-Notifier}!Reachability@{Reachability}}
+\subsubsection[{start\-Notifier}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) start\-Notifier 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_reachability_ae20732960a222681fcc7caeb191158bc}
+Start listening for reachability notifications on the current run loop. 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+external/\-Reachability/Reachability.\-h\item 
+external/\-Reachability/Reachability.\-m\end{DoxyCompactItemize}

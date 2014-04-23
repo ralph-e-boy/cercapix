@@ -1,0 +1,103 @@
+\hypertarget{category_n_s_dictionary_07instagram__api_08}{\section{N\-S\-Dictionary(instagram\-\_\-api) Category Reference}
+\label{category_n_s_dictionary_07instagram__api_08}\index{N\-S\-Dictionary(instagram\-\_\-api)@{N\-S\-Dictionary(instagram\-\_\-api)}}
+}
+
+
+{\ttfamily \#import $<$N\-S\-Dictionary+instagram\-\_\-api.\-h$>$}
+
+
+
+Collaboration diagram for N\-S\-Dictionary(instagram\-\_\-api)\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{category_n_s_dictionary_07instagram__api_08__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{category_n_s_dictionary_07instagram__api_08_ad82007bf5c25883b81c4256c308d8429}{get\-Image\-Url\-:}
+\item 
+(N\-S\-String $\ast$) -\/ \hyperlink{category_n_s_dictionary_07instagram__api_08_abc63fd5ed2d2327266d940db7881413e}{get\-String\-From\-Tag\-:}
+\item 
+(N\-S\-Array $\ast$) -\/ \hyperlink{category_n_s_dictionary_07instagram__api_08_aa53b59d9dd96b0e07948f1ddd7c5b228}{get\-Images}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_ab010bc50fd871e47bfd3b79ed944e243}{C\-G\-Float {\bfseries latitude}}\label{category_n_s_dictionary_07instagram__api_08_ab010bc50fd871e47bfd3b79ed944e243}
+
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_a9c420c711dbdd44ab6372f9b64dbd2bc}{C\-G\-Float {\bfseries longitude}}\label{category_n_s_dictionary_07instagram__api_08_a9c420c711dbdd44ab6372f9b64dbd2bc}
+
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_acf44756149a70ce20278e55206cc4600}{N\-S\-String $\ast$ {\bfseries thumbnail\-Url}}\label{category_n_s_dictionary_07instagram__api_08_acf44756149a70ce20278e55206cc4600}
+
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_a443580b4efc41c59dd5608850b43ce7d}{N\-S\-String $\ast$ {\bfseries low\-Res\-Url}}\label{category_n_s_dictionary_07instagram__api_08_a443580b4efc41c59dd5608850b43ce7d}
+
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_a6bb1c158bc2383df9b82886b17f496d8}{N\-S\-String $\ast$ {\bfseries standard\-Res\-Url}}\label{category_n_s_dictionary_07instagram__api_08_a6bb1c158bc2383df9b82886b17f496d8}
+
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_a3cca035e97fb0325a49b17d90a0acf77}{N\-S\-String $\ast$ {\bfseries filter\-Name}}\label{category_n_s_dictionary_07instagram__api_08_a3cca035e97fb0325a49b17d90a0acf77}
+
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_a5364820cf7a30e5231b1ef2c036271a5}{N\-S\-String $\ast$ {\bfseries username}}\label{category_n_s_dictionary_07instagram__api_08_a5364820cf7a30e5231b1ef2c036271a5}
+
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_a7034f24998a8c54eff55dbc392f0bf67}{N\-S\-String $\ast$ {\bfseries asset\-Type}}\label{category_n_s_dictionary_07instagram__api_08_a7034f24998a8c54eff55dbc392f0bf67}
+
+\item 
+\hypertarget{category_n_s_dictionary_07instagram__api_08_ab064881ca315cff110453693163d293d}{N\-S\-String $\ast$ {\bfseries caption}}\label{category_n_s_dictionary_07instagram__api_08_ab064881ca315cff110453693163d293d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Project-\/specific category on N\-S\-Dictionary for simplified retrieval of json data elements from a dictionary representing instagram media search api results.
+
+Don't use this on any old N\-S\-Dictionary you have laying around.
+
+It expects a result in the form of a N\-S\-Dictionary, one that was J\-S\-O\-N-\/serialzed from media api search result feed matching the schema specified at\-: \href{http://instagram.com/developer/endpoints/media/#get_media_search}{\tt http\-://instagram.\-com/developer/endpoints/media/\#get\-\_\-media\-\_\-search} (version v1 ) in the \char`\"{}response\char`\"{} section. In that example the first response entry \char`\"{}data\char`\"{} is an array of the objects this category is looking for. 
+
+\subsection{Method Documentation}
+\hypertarget{category_n_s_dictionary_07instagram__api_08_aa53b59d9dd96b0e07948f1ddd7c5b228}{\index{N\-S\-Dictionary(instagram\-\_\-api)@{N\-S\-Dictionary(instagram\-\_\-api)}!get\-Images@{get\-Images}}
+\index{get\-Images@{get\-Images}!NSDictionary(instagram_api)@{N\-S\-Dictionary(instagram\-\_\-api)}}
+\subsubsection[{get\-Images}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Array $\ast$) get\-Images 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{category_n_s_dictionary_07instagram__api_08_aa53b59d9dd96b0e07948f1ddd7c5b228}
+return an array of json objects, representing a complete instagram api response list of image entries \hypertarget{category_n_s_dictionary_07instagram__api_08_ad82007bf5c25883b81c4256c308d8429}{\index{N\-S\-Dictionary(instagram\-\_\-api)@{N\-S\-Dictionary(instagram\-\_\-api)}!get\-Image\-Url\-:@{get\-Image\-Url\-:}}
+\index{get\-Image\-Url\-:@{get\-Image\-Url\-:}!NSDictionary(instagram_api)@{N\-S\-Dictionary(instagram\-\_\-api)}}
+\subsubsection[{get\-Image\-Url\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-Image\-Url\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{resolution\-Tag}
+\end{DoxyParamCaption}
+}}\label{category_n_s_dictionary_07instagram__api_08_ad82007bf5c25883b81c4256c308d8429}
+retrieve an image url from a result entry 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em resolution\-Tag} & -\/ json tag specifying desired resolution one of \char`\"{}low\-\_\-resolution\char`\"{},\char`\"{}thumbnail\char`\"{},\char`\"{}standard\-\_\-resolution\char`\"{} constants for these defined in constants.\-h \\
+\hline
+\end{DoxyParams}
+\hypertarget{category_n_s_dictionary_07instagram__api_08_abc63fd5ed2d2327266d940db7881413e}{\index{N\-S\-Dictionary(instagram\-\_\-api)@{N\-S\-Dictionary(instagram\-\_\-api)}!get\-String\-From\-Tag\-:@{get\-String\-From\-Tag\-:}}
+\index{get\-String\-From\-Tag\-:@{get\-String\-From\-Tag\-:}!NSDictionary(instagram_api)@{N\-S\-Dictionary(instagram\-\_\-api)}}
+\subsubsection[{get\-String\-From\-Tag\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String $\ast$) get\-String\-From\-Tag\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{tag\-Name}
+\end{DoxyParamCaption}
+}}\label{category_n_s_dictionary_07instagram__api_08_abc63fd5ed2d2327266d940db7881413e}
+get an arbitrary json value by tag this method -- used internally by the above convenience methods, but maybe useful in any case 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em tag\-Name} & name of key to retrieve value for \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this category was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Categories/N\-S\-Dictionary+instagram\-\_\-api.\-h\item 
+Categories/N\-S\-Dictionary+instagram\-\_\-api.\-m\end{DoxyCompactItemize}

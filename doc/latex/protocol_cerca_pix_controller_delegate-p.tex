@@ -1,0 +1,76 @@
+\hypertarget{protocol_cerca_pix_controller_delegate-p}{\section{$<$Cerca\-Pix\-Controller\-Delegate$>$ Protocol Reference}
+\label{protocol_cerca_pix_controller_delegate-p}\index{$<$\-Cerca\-Pix\-Controller\-Delegate$>$@{$<$\-Cerca\-Pix\-Controller\-Delegate$>$}}
+}
+
+
+{\ttfamily \#import $<$Cerca\-Pix\-Controller.\-h$>$}
+
+
+
+Inheritance diagram for $<$Cerca\-Pix\-Controller\-Delegate$>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{protocol_cerca_pix_controller_delegate-p__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for $<$Cerca\-Pix\-Controller\-Delegate$>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{protocol_cerca_pix_controller_delegate-p__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{protocol_cerca_pix_controller_delegate-p_a0e84878044700ac29b7e23680a7ba1b5}{search\-Completed\-:}
+\item 
+(void) -\/ \hyperlink{protocol_cerca_pix_controller_delegate-p_a1121695268652d83ccf2977e2c2f219c}{search\-Failed\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{interface_cerca_pix_controller}{Cerca\-Pix\-Controller} class -- A singleton class for handling\-:
+
+
+\begin{DoxyItemize}
+\item methods for instagram api service calls
+\item persisting data / datasource for collection view
+\item storing application state
+\end{DoxyItemize}
+
+Use the accessor class method\-: \mbox{[}\hyperlink{interface_cerca_pix_controller}{Cerca\-Pix\-Controller} shared\-Instance\mbox{]}; to retrieve an instance of the singleton 
+
+\subsection{Method Documentation}
+\hypertarget{protocol_cerca_pix_controller_delegate-p_a0e84878044700ac29b7e23680a7ba1b5}{\index{Cerca\-Pix\-Controller\-Delegate-\/p@{Cerca\-Pix\-Controller\-Delegate-\/p}!search\-Completed\-:@{search\-Completed\-:}}
+\index{search\-Completed\-:@{search\-Completed\-:}!CercaPixControllerDelegate-p@{Cerca\-Pix\-Controller\-Delegate-\/p}}
+\subsubsection[{search\-Completed\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) search\-Completed\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Dictionary $\ast$)}]{user\-Info}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_cerca_pix_controller_delegate-p_a0e84878044700ac29b7e23680a7ba1b5}
+Delegate method which is passed entire json data result list 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em user\-Info} & -- N\-S\-Dictionary representation of the json response \\
+\hline
+\end{DoxyParams}
+\hypertarget{protocol_cerca_pix_controller_delegate-p_a1121695268652d83ccf2977e2c2f219c}{\index{Cerca\-Pix\-Controller\-Delegate-\/p@{Cerca\-Pix\-Controller\-Delegate-\/p}!search\-Failed\-:@{search\-Failed\-:}}
+\index{search\-Failed\-:@{search\-Failed\-:}!CercaPixControllerDelegate-p@{Cerca\-Pix\-Controller\-Delegate-\/p}}
+\subsubsection[{search\-Failed\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) search\-Failed\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Dictionary $\ast$)}]{user\-Info}
+\end{DoxyParamCaption}
+\hspace{0.3cm}{\ttfamily [optional]}}}\label{protocol_cerca_pix_controller_delegate-p_a1121695268652d83ccf2977e2c2f219c}
+Delegate method which is passed entire json data result list 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em user\-Info} & -- containing N\-S\-Error object under key \char`\"{}error\char`\"{} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this protocol was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Cerca\-Pix\-Controller.\-h\end{DoxyCompactItemize}

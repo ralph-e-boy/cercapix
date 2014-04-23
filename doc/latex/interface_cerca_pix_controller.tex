@@ -1,0 +1,87 @@
+\hypertarget{interface_cerca_pix_controller}{\section{Cerca\-Pix\-Controller Class Reference}
+\label{interface_cerca_pix_controller}\index{Cerca\-Pix\-Controller@{Cerca\-Pix\-Controller}}
+}
+
+
+Inheritance diagram for Cerca\-Pix\-Controller\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{interface_cerca_pix_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cerca\-Pix\-Controller\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{interface_cerca_pix_controller__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_cerca_pix_controller_a8fa1a5697e86cda32523f0d848b3078a}{get\-Nearby\-Photos}
+\item 
+(C\-L\-Location\-Distance) -\/ \hyperlink{interface_cerca_pix_controller_aaba69007e8987252df1bdbb1894d18f0}{get\-Photo\-Distance\-:}
+\end{DoxyCompactItemize}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_cerca_pix_controller_aca9f6a1b57e6833eed9fb1461e81a777}{(instancetype) + \hyperlink{interface_cerca_pix_controller_aca9f6a1b57e6833eed9fb1461e81a777}{shared\-Instance}}\label{interface_cerca_pix_controller_aca9f6a1b57e6833eed9fb1461e81a777}
+
+\begin{DoxyCompactList}\small\item\em singleton accessor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_cerca_pix_controller_a8cefbd5b98894e0fc7884ea9ad13321d}{C\-L\-Location $\ast$ \hyperlink{interface_cerca_pix_controller_a8cefbd5b98894e0fc7884ea9ad13321d}{search\-Origin\-Location}}\label{interface_cerca_pix_controller_a8cefbd5b98894e0fc7884ea9ad13321d}
+
+\begin{DoxyCompactList}\small\item\em the users location, as reported by mapkit's location manager \end{DoxyCompactList}\item 
+\hypertarget{interface_cerca_pix_controller_a3114595396f6bc56ae5203d6a7f9505f}{C\-G\-Float \hyperlink{interface_cerca_pix_controller_a3114595396f6bc56ae5203d6a7f9505f}{preferred\-Search\-Radius}}\label{interface_cerca_pix_controller_a3114595396f6bc56ae5203d6a7f9505f}
+
+\begin{DoxyCompactList}\small\item\em the radius we are searching with \end{DoxyCompactList}\item 
+N\-S\-Array $\ast$ \hyperlink{interface_cerca_pix_controller_afb398c74c1d705d87150e563707f66d2}{search\-Results}
+\item 
+\hypertarget{interface_cerca_pix_controller_a622af71a9b0cdf3a1ac96575c64ff049}{N\-S\-Dictionary $\ast$ \hyperlink{interface_cerca_pix_controller_a622af71a9b0cdf3a1ac96575c64ff049}{selected\-Image}}\label{interface_cerca_pix_controller_a622af71a9b0cdf3a1ac96575c64ff049}
+
+\begin{DoxyCompactList}\small\item\em the currently selected image's data \end{DoxyCompactList}\item 
+\hypertarget{interface_cerca_pix_controller_a1f6f0c08a8df04e67184bf4fa8f65fad}{id$<$ \hyperlink{protocol_cerca_pix_controller_delegate-p}{Cerca\-Pix\-Controller\-Delegate} $>$ \hyperlink{interface_cerca_pix_controller_a1f6f0c08a8df04e67184bf4fa8f65fad}{delegate}}\label{interface_cerca_pix_controller_a1f6f0c08a8df04e67184bf4fa8f65fad}
+
+\begin{DoxyCompactList}\small\item\em delegate -- used for callbacks for network operations \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Method Documentation}
+\hypertarget{interface_cerca_pix_controller_a8fa1a5697e86cda32523f0d848b3078a}{\index{Cerca\-Pix\-Controller@{Cerca\-Pix\-Controller}!get\-Nearby\-Photos@{get\-Nearby\-Photos}}
+\index{get\-Nearby\-Photos@{get\-Nearby\-Photos}!CercaPixController@{Cerca\-Pix\-Controller}}
+\subsubsection[{get\-Nearby\-Photos}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) get\-Nearby\-Photos 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_cerca_pix_controller_a8fa1a5697e86cda32523f0d848b3078a}
+method to retrieve photos based on current settings of radius and current user location status code 200
+
+no error on async request \hypertarget{interface_cerca_pix_controller_aaba69007e8987252df1bdbb1894d18f0}{\index{Cerca\-Pix\-Controller@{Cerca\-Pix\-Controller}!get\-Photo\-Distance\-:@{get\-Photo\-Distance\-:}}
+\index{get\-Photo\-Distance\-:@{get\-Photo\-Distance\-:}!CercaPixController@{Cerca\-Pix\-Controller}}
+\subsubsection[{get\-Photo\-Distance\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-L\-Location\-Distance) get\-Photo\-Distance\-: 
+\begin{DoxyParamCaption}
+\item[{(C\-L\-Location\-Coordinate2\-D)}]{coord}
+\end{DoxyParamCaption}
+}}\label{interface_cerca_pix_controller_aaba69007e8987252df1bdbb1894d18f0}
+get distance in km of a coordinate from the search origin 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em coord} & -\/ the coordinate to check against \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_cerca_pix_controller_afb398c74c1d705d87150e563707f66d2}{\index{Cerca\-Pix\-Controller@{Cerca\-Pix\-Controller}!search\-Results@{search\-Results}}
+\index{search\-Results@{search\-Results}!CercaPixController@{Cerca\-Pix\-Controller}}
+\subsubsection[{search\-Results}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Array$\ast$) search\-Results\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_cerca_pix_controller_afb398c74c1d705d87150e563707f66d2}
+an array of search results -\/ each item is in instagram json nsdictionary format 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Cerca\-Pix\-Controller.\-h\item 
+Cerca\-Pix\-Controller.\-m\end{DoxyCompactItemize}
