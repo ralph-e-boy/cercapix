@@ -33,7 +33,7 @@ pages at http://instagram.com/developer/
 In `constants.m`, update: 
 
 `
-     NSString* const kInstagramClientId              = @"YOUR_CLIENT_ID";
+         NSString* const kInstagramClientId              = @"YOUR_CLIENT_ID";
 
 `
 
