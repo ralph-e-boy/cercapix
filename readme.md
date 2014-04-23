@@ -36,7 +36,6 @@ In `constants.m`:
             /**
              * Instagram authentication credentials - client id
              */
-
              NSString* const kInstagramClientId              = @"YOUR_CLIENT_ID";
 
 `
