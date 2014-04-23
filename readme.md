@@ -47,5 +47,6 @@ This app will run on both iPhone and iPad.
 - If the GPS does not have a good fix, the map region zoom level is wonky
 - iPad UI needs work
 - If left running for a long time, images fail to download. This probably has something to do with the not-very-robust ImageView category running out of retries.
+- Sometimes results appear outside of the user-defined search radius.  Without getting out my cartography tools, I am guessing this is on istagram's side ;-)
 
 
