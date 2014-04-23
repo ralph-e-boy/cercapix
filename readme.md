@@ -32,10 +32,9 @@ pages at http://instagram.com/developer/
 
 In `constants.m`, update: 
 
-`
+        
          NSString* const kInstagramClientId              = @"YOUR_CLIENT_ID";
 
-`
 
 After that, load it up in xcode and give it a while
 Please feel free to file an issue if it doesn't work.
