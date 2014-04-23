@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA2F005D19085E0D00732855 /* MKMapView+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F004E19085E0D00732855 /* MKMapView+utils.m */; };
+		CA2F005E19085E0D00732855 /* MKMapView+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F004E19085E0D00732855 /* MKMapView+utils.m */; };
+		CA2F005F19085E0D00732855 /* NSData+json.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005019085E0D00732855 /* NSData+json.m */; };
+		CA2F006019085E0D00732855 /* NSData+json.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005019085E0D00732855 /* NSData+json.m */; };
+		CA2F006119085E0D00732855 /* NSMutableAttributedString+format.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005219085E0D00732855 /* NSMutableAttributedString+format.m */; };
+		CA2F006219085E0D00732855 /* NSMutableAttributedString+format.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005219085E0D00732855 /* NSMutableAttributedString+format.m */; };
+		CA2F006319085E0D00732855 /* NSObject+associatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005419085E0D00732855 /* NSObject+associatedObjects.m */; };
+		CA2F006419085E0D00732855 /* NSObject+associatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005419085E0D00732855 /* NSObject+associatedObjects.m */; };
+		CA2F006519085E0D00732855 /* NSString+urls.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005619085E0D00732855 /* NSString+urls.m */; };
+		CA2F006619085E0D00732855 /* NSString+urls.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005619085E0D00732855 /* NSString+urls.m */; };
+		CA2F006719085E0D00732855 /* UIApplication+views.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005819085E0D00732855 /* UIApplication+views.m */; };
+		CA2F006819085E0D00732855 /* UIApplication+views.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005819085E0D00732855 /* UIApplication+views.m */; };
+		CA2F006919085E0D00732855 /* UIImage+resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005A19085E0D00732855 /* UIImage+resize.m */; };
+		CA2F006A19085E0D00732855 /* UIImage+resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005A19085E0D00732855 /* UIImage+resize.m */; };
+		CA2F006B19085E0D00732855 /* UIView+effects.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005C19085E0D00732855 /* UIView+effects.m */; };
+		CA2F006C19085E0D00732855 /* UIView+effects.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F005C19085E0D00732855 /* UIView+effects.m */; };
+		CA2F007019085E2E00732855 /* UIColor+unixcolors.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F006F19085E2E00732855 /* UIColor+unixcolors.m */; };
+		CA2F007119085E2E00732855 /* UIColor+unixcolors.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2F006F19085E2E00732855 /* UIColor+unixcolors.m */; };
+		CA403EC51906EE5600DDEF72 /* CercaPixDetailImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA403EC41906EE5600DDEF72 /* CercaPixDetailImageView.m */; };
+		CA403EC61906EE5600DDEF72 /* CercaPixDetailImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA403EC41906EE5600DDEF72 /* CercaPixDetailImageView.m */; };
+		CA403EC819070EA900DDEF72 /* CercaPixDetailImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA403EC719070EA900DDEF72 /* CercaPixDetailImageView.xib */; };
+		CA403EC919070EA900DDEF72 /* CercaPixDetailImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA403EC719070EA900DDEF72 /* CercaPixDetailImageView.xib */; };
+		CA403ECF19077AA000DDEF72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA403ECE19077AA000DDEF72 /* Default@2x.png */; };
+		CA403ED019077AA000DDEF72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA403ECE19077AA000DDEF72 /* Default@2x.png */; };
+		CA403ED319080B0300DDEF72 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = CA403ED219080B0300DDEF72 /* search.json */; };
+		CA403ED419080B0300DDEF72 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = CA403ED219080B0300DDEF72 /* search.json */; };
+		CA696BC7190615EB00246899 /* CercaPixGalleryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA696BC6190615EB00246899 /* CercaPixGalleryViewCell.m */; };
+		CA696BC8190615EB00246899 /* CercaPixGalleryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA696BC6190615EB00246899 /* CercaPixGalleryViewCell.m */; };
+		CAB1675319039508001CC663 /* CercaPixAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1675219039508001CC663 /* CercaPixAnnotation.m */; };
+		CAB1675419039508001CC663 /* CercaPixAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1675219039508001CC663 /* CercaPixAnnotation.m */; };
+		CAB1675719039A3A001CC663 /* NSDictionary+instagram_api.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1675619039A3A001CC663 /* NSDictionary+instagram_api.m */; };
+		CAB1675819039A3A001CC663 /* NSDictionary+instagram_api.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1675619039A3A001CC663 /* NSDictionary+instagram_api.m */; };
+		CAB1675B1903A45E001CC663 /* CercaPixAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1675A1903A45E001CC663 /* CercaPixAnnotationView.m */; };
+		CAB1675C1903A45E001CC663 /* CercaPixAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1675A1903A45E001CC663 /* CercaPixAnnotationView.m */; };
+		CAB1675F190560E8001CC663 /* CercaPixGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1675E190560E8001CC663 /* CercaPixGalleryViewController.m */; };
+		CAB16760190560E8001CC663 /* CercaPixGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1675E190560E8001CC663 /* CercaPixGalleryViewController.m */; };
+		CAB1677119056AC7001CC663 /* CercaPixCircleRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1677019056AC7001CC663 /* CercaPixCircleRenderer.m */; };
+		CAB1677219056AC7001CC663 /* CercaPixCircleRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1677019056AC7001CC663 /* CercaPixCircleRenderer.m */; };
+		CADD378119059BB900835BB4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CADD378019059BB900835BB4 /* Icon.png */; };
+		CADD37891905B3CC00835BB4 /* cameraicon.png in Resources */ = {isa = PBXBuildFile; fileRef = CADD37881905B3CC00835BB4 /* cameraicon.png */; };
+		CADD378A1905B3CC00835BB4 /* cameraicon.png in Resources */ = {isa = PBXBuildFile; fileRef = CADD37881905B3CC00835BB4 /* cameraicon.png */; };
+		CAE191CE19082AEC0017917D /* instagram_tags.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE191CD19082AEC0017917D /* instagram_tags.m */; };
+		CAE191CF19082AEC0017917D /* instagram_tags.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE191CD19082AEC0017917D /* instagram_tags.m */; };
+		CAE191D319083F7F0017917D /* CercaPixIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE191D219083F7F0017917D /* CercaPixIntroViewController.m */; };
+		CAE191D419083F7F0017917D /* CercaPixIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE191D219083F7F0017917D /* CercaPixIntroViewController.m */; };
+		CAE877061902F45700BDA96B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE877051902F45700BDA96B /* Foundation.framework */; };
+		CAE877081902F45700BDA96B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE877071902F45700BDA96B /* CoreGraphics.framework */; };
+		CAE8770A1902F45700BDA96B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE877091902F45700BDA96B /* UIKit.framework */; };
+		CAE877101902F45700BDA96B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE8770E1902F45700BDA96B /* InfoPlist.strings */; };
+		CAE877121902F45700BDA96B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE877111902F45700BDA96B /* main.m */; };
+		CAE877161902F45700BDA96B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE877151902F45700BDA96B /* AppDelegate.m */; };
+		CAE877191902F45700BDA96B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE877171902F45700BDA96B /* Main_iPhone.storyboard */; };
+		CAE8771C1902F45700BDA96B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE8771A1902F45700BDA96B /* Main_iPad.storyboard */; };
+		CAE877211902F45700BDA96B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE877201902F45700BDA96B /* Images.xcassets */; };
+		CAE877281902F45700BDA96B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE877271902F45700BDA96B /* XCTest.framework */; };
+		CAE877291902F45700BDA96B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE877051902F45700BDA96B /* Foundation.framework */; };
+		CAE8772A1902F45700BDA96B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE877091902F45700BDA96B /* UIKit.framework */; };
+		CAE877321902F45700BDA96B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE877301902F45700BDA96B /* InfoPlist.strings */; };
+		CAE877341902F45700BDA96B /* CercaPixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE877331902F45700BDA96B /* CercaPixTests.m */; };
+		CAE8773E1902F61F00BDA96B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE8773D1902F61F00BDA96B /* CoreLocation.framework */; };
+		CAE877401902F62500BDA96B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE8773F1902F62500BDA96B /* QuartzCore.framework */; };
+		CAE877451902F8EE00BDA96B /* CercaPixController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE877441902F8EE00BDA96B /* CercaPixController.m */; };
+		CAE877481902F95800BDA96B /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE877471902F95800BDA96B /* constants.m */; };
+		CAE877491902F95800BDA96B /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE877471902F95800BDA96B /* constants.m */; };
+		CAE8774B1903063600BDA96B /* CercaPixControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE8774A1903063600BDA96B /* CercaPixControllerTests.m */; };
+		CAE8774E1903079400BDA96B /* CercaPixMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE8774D1903079400BDA96B /* CercaPixMapViewController.m */; };
+		CAE8774F1903079400BDA96B /* CercaPixMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE8774D1903079400BDA96B /* CercaPixMapViewController.m */; };
+		CAE87751190309B900BDA96B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE87750190309B900BDA96B /* MapKit.framework */; };
+		CAE8775519030FC300BDA96B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE8775419030FC300BDA96B /* Reachability.m */; };
+		CAE8775619030FC300BDA96B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE8775419030FC300BDA96B /* Reachability.m */; };
+		CAF411BA19085D8D00E9581B /* UIImageView+download.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF411B919085D8D00E9581B /* UIImageView+download.m */; };
+		CAFDAF2F1906D1DB00576803 /* StatusMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFDAF2E1906D1DB00576803 /* StatusMessageView.m */; };
+		CAFDAF301906D1DB00576803 /* StatusMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFDAF2E1906D1DB00576803 /* StatusMessageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE8772B1902F45700BDA96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE876FA1902F45700BDA96B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE877011902F45700BDA96B;
+			remoteInfo = CercaPix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA2F004D19085E0D00732855 /* MKMapView+utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKMapView+utils.h"; path = "CercaPix/Classes/Categories/MKMapView+utils.h"; sourceTree = SOURCE_ROOT; };
+		CA2F004E19085E0D00732855 /* MKMapView+utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+utils.m"; path = "CercaPix/Classes/Categories/MKMapView+utils.m"; sourceTree = SOURCE_ROOT; };
+		CA2F004F19085E0D00732855 /* NSData+json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+json.h"; path = "CercaPix/Classes/Categories/NSData+json.h"; sourceTree = SOURCE_ROOT; };
+		CA2F005019085E0D00732855 /* NSData+json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+json.m"; path = "CercaPix/Classes/Categories/NSData+json.m"; sourceTree = SOURCE_ROOT; };
+		CA2F005119085E0D00732855 /* NSMutableAttributedString+format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+format.h"; path = "CercaPix/Classes/Categories/NSMutableAttributedString+format.h"; sourceTree = SOURCE_ROOT; };
+		CA2F005219085E0D00732855 /* NSMutableAttributedString+format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+format.m"; path = "CercaPix/Classes/Categories/NSMutableAttributedString+format.m"; sourceTree = SOURCE_ROOT; };
+		CA2F005319085E0D00732855 /* NSObject+associatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+associatedObjects.h"; path = "CercaPix/Classes/Categories/NSObject+associatedObjects.h"; sourceTree = SOURCE_ROOT; };
+		CA2F005419085E0D00732855 /* NSObject+associatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+associatedObjects.m"; path = "CercaPix/Classes/Categories/NSObject+associatedObjects.m"; sourceTree = SOURCE_ROOT; };
+		CA2F005519085E0D00732855 /* NSString+urls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+urls.h"; path = "CercaPix/Classes/Categories/NSString+urls.h"; sourceTree = SOURCE_ROOT; };
+		CA2F005619085E0D00732855 /* NSString+urls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+urls.m"; path = "CercaPix/Classes/Categories/NSString+urls.m"; sourceTree = SOURCE_ROOT; };
+		CA2F005719085E0D00732855 /* UIApplication+views.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+views.h"; path = "CercaPix/Classes/Categories/UIApplication+views.h"; sourceTree = SOURCE_ROOT; };
+		CA2F005819085E0D00732855 /* UIApplication+views.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+views.m"; path = "CercaPix/Classes/Categories/UIApplication+views.m"; sourceTree = SOURCE_ROOT; };
+		CA2F005919085E0D00732855 /* UIImage+resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+resize.h"; path = "CercaPix/Classes/Categories/UIImage+resize.h"; sourceTree = SOURCE_ROOT; };
+		CA2F005A19085E0D00732855 /* UIImage+resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+resize.m"; path = "CercaPix/Classes/Categories/UIImage+resize.m"; sourceTree = SOURCE_ROOT; };
+		CA2F005B19085E0D00732855 /* UIView+effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+effects.h"; path = "CercaPix/Classes/Categories/UIView+effects.h"; sourceTree = SOURCE_ROOT; };
+		CA2F005C19085E0D00732855 /* UIView+effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+effects.m"; path = "CercaPix/Classes/Categories/UIView+effects.m"; sourceTree = SOURCE_ROOT; };
+		CA2F006E19085E2E00732855 /* UIColor+unixcolors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+unixcolors.h"; sourceTree = "<group>"; };
+		CA2F006F19085E2E00732855 /* UIColor+unixcolors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+unixcolors.m"; sourceTree = "<group>"; };
+		CA403EC31906EE5600DDEF72 /* CercaPixDetailImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixDetailImageView.h; path = Classes/CercaPixDetailImageView.h; sourceTree = "<group>"; };
+		CA403EC41906EE5600DDEF72 /* CercaPixDetailImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixDetailImageView.m; path = Classes/CercaPixDetailImageView.m; sourceTree = "<group>"; };
+		CA403EC719070EA900DDEF72 /* CercaPixDetailImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CercaPixDetailImageView.xib; sourceTree = "<group>"; };
+		CA403ECE19077AA000DDEF72 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		CA403ED219080B0300DDEF72 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		CA696BC5190615EB00246899 /* CercaPixGalleryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixGalleryViewCell.h; path = Classes/CercaPixGalleryViewCell.h; sourceTree = "<group>"; };
+		CA696BC6190615EB00246899 /* CercaPixGalleryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixGalleryViewCell.m; path = Classes/CercaPixGalleryViewCell.m; sourceTree = "<group>"; };
+		CAB1675119039508001CC663 /* CercaPixAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixAnnotation.h; path = Classes/CercaPixAnnotation.h; sourceTree = "<group>"; };
+		CAB1675219039508001CC663 /* CercaPixAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixAnnotation.m; path = Classes/CercaPixAnnotation.m; sourceTree = "<group>"; };
+		CAB1675519039A3A001CC663 /* NSDictionary+instagram_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+instagram_api.h"; sourceTree = "<group>"; };
+		CAB1675619039A3A001CC663 /* NSDictionary+instagram_api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+instagram_api.m"; sourceTree = "<group>"; };
+		CAB167591903A45E001CC663 /* CercaPixAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixAnnotationView.h; path = Classes/CercaPixAnnotationView.h; sourceTree = "<group>"; };
+		CAB1675A1903A45E001CC663 /* CercaPixAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixAnnotationView.m; path = Classes/CercaPixAnnotationView.m; sourceTree = "<group>"; };
+		CAB1675D190560E8001CC663 /* CercaPixGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixGalleryViewController.h; path = Classes/CercaPixGalleryViewController.h; sourceTree = "<group>"; };
+		CAB1675E190560E8001CC663 /* CercaPixGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixGalleryViewController.m; path = Classes/CercaPixGalleryViewController.m; sourceTree = "<group>"; };
+		CAB1676F19056AC7001CC663 /* CercaPixCircleRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixCircleRenderer.h; path = Classes/CercaPixCircleRenderer.h; sourceTree = "<group>"; };
+		CAB1677019056AC7001CC663 /* CercaPixCircleRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixCircleRenderer.m; path = Classes/CercaPixCircleRenderer.m; sourceTree = "<group>"; };
+		CADD378019059BB900835BB4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CADD37881905B3CC00835BB4 /* cameraicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraicon.png; sourceTree = "<group>"; };
+		CAE191CC190819EF0017917D /* instagram_tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instagram_tags.h; sourceTree = "<group>"; };
+		CAE191CD19082AEC0017917D /* instagram_tags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = instagram_tags.m; sourceTree = "<group>"; };
+		CAE191D119083F7F0017917D /* CercaPixIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixIntroViewController.h; path = Classes/CercaPixIntroViewController.h; sourceTree = "<group>"; };
+		CAE191D219083F7F0017917D /* CercaPixIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixIntroViewController.m; path = Classes/CercaPixIntroViewController.m; sourceTree = "<group>"; };
+		CAE877021902F45700BDA96B /* CercaPix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CercaPix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE877051902F45700BDA96B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAE877071902F45700BDA96B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAE877091902F45700BDA96B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAE8770D1902F45700BDA96B /* CercaPix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CercaPix-Info.plist"; sourceTree = "<group>"; };
+		CAE8770F1902F45700BDA96B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAE877111902F45700BDA96B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAE877131902F45700BDA96B /* CercaPix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CercaPix-Prefix.pch"; sourceTree = "<group>"; };
+		CAE877141902F45700BDA96B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAE877151902F45700BDA96B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAE877181902F45700BDA96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CAE8771B1902F45700BDA96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CAE877201902F45700BDA96B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAE877261902F45700BDA96B /* CercaPixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CercaPixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE877271902F45700BDA96B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CAE8772F1902F45700BDA96B /* CercaPixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CercaPixTests-Info.plist"; sourceTree = "<group>"; };
+		CAE877311902F45700BDA96B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAE877331902F45700BDA96B /* CercaPixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CercaPixTests.m; sourceTree = "<group>"; };
+		CAE8773D1902F61F00BDA96B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CAE8773F1902F62500BDA96B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CAE877431902F8EE00BDA96B /* CercaPixController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixController.h; path = Classes/CercaPixController.h; sourceTree = "<group>"; };
+		CAE877441902F8EE00BDA96B /* CercaPixController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixController.m; path = Classes/CercaPixController.m; sourceTree = "<group>"; };
+		CAE877461902F93500BDA96B /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		CAE877471902F95800BDA96B /* constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constants.m; sourceTree = "<group>"; };
+		CAE8774A1903063600BDA96B /* CercaPixControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CercaPixControllerTests.m; sourceTree = "<group>"; };
+		CAE8774C1903079400BDA96B /* CercaPixMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CercaPixMapViewController.h; path = Classes/CercaPixMapViewController.h; sourceTree = "<group>"; };
+		CAE8774D1903079400BDA96B /* CercaPixMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CercaPixMapViewController.m; path = Classes/CercaPixMapViewController.m; sourceTree = "<group>"; };
+		CAE87750190309B900BDA96B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CAE8775319030FC300BDA96B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CAE8775419030FC300BDA96B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CAF411B819085D8D00E9581B /* UIImageView+download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+download.h"; path = "CercaPix/Classes/Categories/UIImageView+download.h"; sourceTree = SOURCE_ROOT; };
+		CAF411B919085D8D00E9581B /* UIImageView+download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+download.m"; path = "CercaPix/Classes/Categories/UIImageView+download.m"; sourceTree = SOURCE_ROOT; };
+		CAFDAF2D1906D1DB00576803 /* StatusMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusMessageView.h; path = Classes/StatusMessageView.h; sourceTree = "<group>"; };
+		CAFDAF2E1906D1DB00576803 /* StatusMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusMessageView.m; path = Classes/StatusMessageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE876FF1902F45700BDA96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE87751190309B900BDA96B /* MapKit.framework in Frameworks */,
+				CAE877401902F62500BDA96B /* QuartzCore.framework in Frameworks */,
+				CAE8773E1902F61F00BDA96B /* CoreLocation.framework in Frameworks */,
+				CAE877081902F45700BDA96B /* CoreGraphics.framework in Frameworks */,
+				CAE8770A1902F45700BDA96B /* UIKit.framework in Frameworks */,
+				CAE877061902F45700BDA96B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE877231902F45700BDA96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE877281902F45700BDA96B /* XCTest.framework in Frameworks */,
+				CAE8772A1902F45700BDA96B /* UIKit.framework in Frameworks */,
+				CAE877291902F45700BDA96B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA2F006D19085E2E00732855 /* color */ = {
+			isa = PBXGroup;
+			children = (
+				CA2F006E19085E2E00732855 /* UIColor+unixcolors.h */,
+				CA2F006F19085E2E00732855 /* UIColor+unixcolors.m */,
+			);
+			name = color;
+			path = CercaPix/Classes/Categories/color;
+			sourceTree = SOURCE_ROOT;
+		};
+		CA403ED11908075800DDEF72 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1675519039A3A001CC663 /* NSDictionary+instagram_api.h */,
+				CAB1675619039A3A001CC663 /* NSDictionary+instagram_api.m */,
+				CAE191CC190819EF0017917D /* instagram_tags.h */,
+				CAE191CD19082AEC0017917D /* instagram_tags.m */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		CAB16761190560FB001CC663 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8775219030FC300BDA96B /* Reachability */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		CAB16762190565F8001CC663 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1675119039508001CC663 /* CercaPixAnnotation.h */,
+				CAB1675219039508001CC663 /* CercaPixAnnotation.m */,
+				CAB167591903A45E001CC663 /* CercaPixAnnotationView.h */,
+				CAB1675A1903A45E001CC663 /* CercaPixAnnotationView.m */,
+				CAB1676F19056AC7001CC663 /* CercaPixCircleRenderer.h */,
+				CAB1677019056AC7001CC663 /* CercaPixCircleRenderer.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		CAB1677619056F30001CC663 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CA2F006D19085E2E00732855 /* color */,
+				CA2F004D19085E0D00732855 /* MKMapView+utils.h */,
+				CA2F004E19085E0D00732855 /* MKMapView+utils.m */,
+				CA2F004F19085E0D00732855 /* NSData+json.h */,
+				CA2F005019085E0D00732855 /* NSData+json.m */,
+				CA2F005119085E0D00732855 /* NSMutableAttributedString+format.h */,
+				CA2F005219085E0D00732855 /* NSMutableAttributedString+format.m */,
+				CA2F005319085E0D00732855 /* NSObject+associatedObjects.h */,
+				CA2F005419085E0D00732855 /* NSObject+associatedObjects.m */,
+				CA2F005519085E0D00732855 /* NSString+urls.h */,
+				CA2F005619085E0D00732855 /* NSString+urls.m */,
+				CA2F005719085E0D00732855 /* UIApplication+views.h */,
+				CA2F005819085E0D00732855 /* UIApplication+views.m */,
+				CA2F005919085E0D00732855 /* UIImage+resize.h */,
+				CA2F005A19085E0D00732855 /* UIImage+resize.m */,
+				CA2F005B19085E0D00732855 /* UIView+effects.h */,
+				CA2F005C19085E0D00732855 /* UIView+effects.m */,
+				CAF411B819085D8D00E9581B /* UIImageView+download.h */,
+				CAF411B919085D8D00E9581B /* UIImageView+download.m */,
+			);
+			name = General;
+			path = ../../../color;
+			sourceTree = "<group>";
+		};
+		CAE191D019083E360017917D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CAE877201902F45700BDA96B /* Images.xcassets */,
+				CA403ECE19077AA000DDEF72 /* Default@2x.png */,
+				CA403ED219080B0300DDEF72 /* search.json */,
+				CADD37881905B3CC00835BB4 /* cameraicon.png */,
+				CADD378019059BB900835BB4 /* Icon.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CAE876F91902F45700BDA96B = {
+			isa = PBXGroup;
+			children = (
+				CAE8770B1902F45700BDA96B /* CercaPix */,
+				CAE8772D1902F45700BDA96B /* CercaPixTests */,
+				CAE877041902F45700BDA96B /* Frameworks */,
+				CAE877031902F45700BDA96B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE877031902F45700BDA96B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE877021902F45700BDA96B /* CercaPix.app */,
+				CAE877261902F45700BDA96B /* CercaPixTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE877041902F45700BDA96B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE87750190309B900BDA96B /* MapKit.framework */,
+				CAE8773F1902F62500BDA96B /* QuartzCore.framework */,
+				CAE8773D1902F61F00BDA96B /* CoreLocation.framework */,
+				CAE877051902F45700BDA96B /* Foundation.framework */,
+				CAE877071902F45700BDA96B /* CoreGraphics.framework */,
+				CAE877091902F45700BDA96B /* UIKit.framework */,
+				CAE877271902F45700BDA96B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE8770B1902F45700BDA96B /* CercaPix */ = {
+			isa = PBXGroup;
+			children = (
+				CAE877421902F7E600BDA96B /* Resources */,
+				CAE877411902F7DD00BDA96B /* Classes */,
+				CAE8770C1902F45700BDA96B /* Supporting Files */,
+			);
+			path = CercaPix;
+			sourceTree = "<group>";
+		};
+		CAE8770C1902F45700BDA96B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8770D1902F45700BDA96B /* CercaPix-Info.plist */,
+				CAE8770E1902F45700BDA96B /* InfoPlist.strings */,
+				CAE877111902F45700BDA96B /* main.m */,
+				CAE877131902F45700BDA96B /* CercaPix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE8772D1902F45700BDA96B /* CercaPixTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE877331902F45700BDA96B /* CercaPixTests.m */,
+				CAE8772E1902F45700BDA96B /* Supporting Files */,
+				CAE8774A1903063600BDA96B /* CercaPixControllerTests.m */,
+			);
+			path = CercaPixTests;
+			sourceTree = "<group>";
+		};
+		CAE8772E1902F45700BDA96B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8772F1902F45700BDA96B /* CercaPixTests-Info.plist */,
+				CAE877301902F45700BDA96B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE877411902F7DD00BDA96B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CAB16761190560FB001CC663 /* external */,
+				CAE8775B190364C300BDA96B /* Categories */,
+				CAE877141902F45700BDA96B /* AppDelegate.h */,
+				CAE877151902F45700BDA96B /* AppDelegate.m */,
+				CAE877461902F93500BDA96B /* constants.h */,
+				CAE877471902F95800BDA96B /* constants.m */,
+				CAE877431902F8EE00BDA96B /* CercaPixController.h */,
+				CAE877441902F8EE00BDA96B /* CercaPixController.m */,
+				CAE8774C1903079400BDA96B /* CercaPixMapViewController.h */,
+				CAE8774D1903079400BDA96B /* CercaPixMapViewController.m */,
+				CAB1675D190560E8001CC663 /* CercaPixGalleryViewController.h */,
+				CAB1675E190560E8001CC663 /* CercaPixGalleryViewController.m */,
+				CA696BC5190615EB00246899 /* CercaPixGalleryViewCell.h */,
+				CA696BC6190615EB00246899 /* CercaPixGalleryViewCell.m */,
+				CAFDAF2D1906D1DB00576803 /* StatusMessageView.h */,
+				CAFDAF2E1906D1DB00576803 /* StatusMessageView.m */,
+				CA403EC31906EE5600DDEF72 /* CercaPixDetailImageView.h */,
+				CA403EC41906EE5600DDEF72 /* CercaPixDetailImageView.m */,
+				CAE191D119083F7F0017917D /* CercaPixIntroViewController.h */,
+				CAE191D219083F7F0017917D /* CercaPixIntroViewController.m */,
+				CAB16762190565F8001CC663 /* Map */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CAE877421902F7E600BDA96B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAE191D019083E360017917D /* images */,
+				CAE877171902F45700BDA96B /* Main_iPhone.storyboard */,
+				CAE8771A1902F45700BDA96B /* Main_iPad.storyboard */,
+				CA403EC719070EA900DDEF72 /* CercaPixDetailImageView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CAE8775219030FC300BDA96B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8775319030FC300BDA96B /* Reachability.h */,
+				CAE8775419030FC300BDA96B /* Reachability.m */,
+			);
+			name = Reachability;
+			path = Classes/external/Reachability;
+			sourceTree = "<group>";
+		};
+		CAE8775B190364C300BDA96B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1677619056F30001CC663 /* General */,
+				CA403ED11908075800DDEF72 /* Project */,
+			);
+			name = Categories;
+			path = Classes/Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE877011902F45700BDA96B /* CercaPix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE877371902F45700BDA96B /* Build configuration list for PBXNativeTarget "CercaPix" */;
+			buildPhases = (
+				CAE876FE1902F45700BDA96B /* Sources */,
+				CAE876FF1902F45700BDA96B /* Frameworks */,
+				CAE877001902F45700BDA96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CercaPix;
+			productName = CercaPix;
+			productReference = CAE877021902F45700BDA96B /* CercaPix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE877251902F45700BDA96B /* CercaPixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE8773A1902F45700BDA96B /* Build configuration list for PBXNativeTarget "CercaPixTests" */;
+			buildPhases = (
+				CAE877221902F45700BDA96B /* Sources */,
+				CAE877231902F45700BDA96B /* Frameworks */,
+				CAE877241902F45700BDA96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE8772C1902F45700BDA96B /* PBXTargetDependency */,
+			);
+			name = CercaPixTests;
+			productName = CercaPixTests;
+			productReference = CAE877261902F45700BDA96B /* CercaPixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE876FA1902F45700BDA96B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ralph Seaman";
+				TargetAttributes = {
+					CAE877251902F45700BDA96B = {
+						TestTargetID = CAE877011902F45700BDA96B;
+					};
+				};
+			};
+			buildConfigurationList = CAE876FD1902F45700BDA96B /* Build configuration list for PBXProject "CercaPix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE876F91902F45700BDA96B;
+			productRefGroup = CAE877031902F45700BDA96B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE877011902F45700BDA96B /* CercaPix */,
+				CAE877251902F45700BDA96B /* CercaPixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE877001902F45700BDA96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE8771C1902F45700BDA96B /* Main_iPad.storyboard in Resources */,
+				CADD37891905B3CC00835BB4 /* cameraicon.png in Resources */,
+				CAE877211902F45700BDA96B /* Images.xcassets in Resources */,
+				CA403ED319080B0300DDEF72 /* search.json in Resources */,
+				CA403EC819070EA900DDEF72 /* CercaPixDetailImageView.xib in Resources */,
+				CA403ECF19077AA000DDEF72 /* Default@2x.png in Resources */,
+				CADD378119059BB900835BB4 /* Icon.png in Resources */,
+				CAE877191902F45700BDA96B /* Main_iPhone.storyboard in Resources */,
+				CAE877101902F45700BDA96B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE877241902F45700BDA96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA403ED019077AA000DDEF72 /* Default@2x.png in Resources */,
+				CAE877321902F45700BDA96B /* InfoPlist.strings in Resources */,
+				CA403ED419080B0300DDEF72 /* search.json in Resources */,
+				CADD378A1905B3CC00835BB4 /* cameraicon.png in Resources */,
+				CA403EC919070EA900DDEF72 /* CercaPixDetailImageView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE876FE1902F45700BDA96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2F006719085E0D00732855 /* UIApplication+views.m in Sources */,
+				CA2F006919085E0D00732855 /* UIImage+resize.m in Sources */,
+				CAE877481902F95800BDA96B /* constants.m in Sources */,
+				CAB1675319039508001CC663 /* CercaPixAnnotation.m in Sources */,
+				CA696BC7190615EB00246899 /* CercaPixGalleryViewCell.m in Sources */,
+				CA2F006519085E0D00732855 /* NSString+urls.m in Sources */,
+				CAE877161902F45700BDA96B /* AppDelegate.m in Sources */,
+				CA2F007019085E2E00732855 /* UIColor+unixcolors.m in Sources */,
+				CAE191D319083F7F0017917D /* CercaPixIntroViewController.m in Sources */,
+				CAB1675F190560E8001CC663 /* CercaPixGalleryViewController.m in Sources */,
+				CA403EC51906EE5600DDEF72 /* CercaPixDetailImageView.m in Sources */,
+				CA2F006319085E0D00732855 /* NSObject+associatedObjects.m in Sources */,
+				CAB1675719039A3A001CC663 /* NSDictionary+instagram_api.m in Sources */,
+				CAE191CE19082AEC0017917D /* instagram_tags.m in Sources */,
+				CAB1675B1903A45E001CC663 /* CercaPixAnnotationView.m in Sources */,
+				CAE8775519030FC300BDA96B /* Reachability.m in Sources */,
+				CAB1677119056AC7001CC663 /* CercaPixCircleRenderer.m in Sources */,
+				CAE877451902F8EE00BDA96B /* CercaPixController.m in Sources */,
+				CA2F006B19085E0D00732855 /* UIView+effects.m in Sources */,
+				CAE8774E1903079400BDA96B /* CercaPixMapViewController.m in Sources */,
+				CA2F005F19085E0D00732855 /* NSData+json.m in Sources */,
+				CA2F006119085E0D00732855 /* NSMutableAttributedString+format.m in Sources */,
+				CAE877121902F45700BDA96B /* main.m in Sources */,
+				CAF411BA19085D8D00E9581B /* UIImageView+download.m in Sources */,
+				CAFDAF2F1906D1DB00576803 /* StatusMessageView.m in Sources */,
+				CA2F005D19085E0D00732855 /* MKMapView+utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE877221902F45700BDA96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFDAF301906D1DB00576803 /* StatusMessageView.m in Sources */,
+				CAE877341902F45700BDA96B /* CercaPixTests.m in Sources */,
+				CA2F006419085E0D00732855 /* NSObject+associatedObjects.m in Sources */,
+				CA2F006619085E0D00732855 /* NSString+urls.m in Sources */,
+				CAB1675419039508001CC663 /* CercaPixAnnotation.m in Sources */,
+				CA2F006219085E0D00732855 /* NSMutableAttributedString+format.m in Sources */,
+				CA403EC61906EE5600DDEF72 /* CercaPixDetailImageView.m in Sources */,
+				CAB1675C1903A45E001CC663 /* CercaPixAnnotationView.m in Sources */,
+				CAB1677219056AC7001CC663 /* CercaPixCircleRenderer.m in Sources */,
+				CA2F006C19085E0D00732855 /* UIView+effects.m in Sources */,
+				CA2F006A19085E0D00732855 /* UIImage+resize.m in Sources */,
+				CAE877491902F95800BDA96B /* constants.m in Sources */,
+				CAE8774F1903079400BDA96B /* CercaPixMapViewController.m in Sources */,
+				CAB1675819039A3A001CC663 /* NSDictionary+instagram_api.m in Sources */,
+				CA2F005E19085E0D00732855 /* MKMapView+utils.m in Sources */,
+				CAB16760190560E8001CC663 /* CercaPixGalleryViewController.m in Sources */,
+				CA2F006819085E0D00732855 /* UIApplication+views.m in Sources */,
+				CAE191D419083F7F0017917D /* CercaPixIntroViewController.m in Sources */,
+				CA2F006019085E0D00732855 /* NSData+json.m in Sources */,
+				CAE8774B1903063600BDA96B /* CercaPixControllerTests.m in Sources */,
+				CA696BC8190615EB00246899 /* CercaPixGalleryViewCell.m in Sources */,
+				CA2F007119085E2E00732855 /* UIColor+unixcolors.m in Sources */,
+				CAE8775619030FC300BDA96B /* Reachability.m in Sources */,
+				CAE191CF19082AEC0017917D /* instagram_tags.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE8772C1902F45700BDA96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE877011902F45700BDA96B /* CercaPix */;
+			targetProxy = CAE8772B1902F45700BDA96B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE8770E1902F45700BDA96B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE8770F1902F45700BDA96B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAE877171902F45700BDA96B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE877181902F45700BDA96B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE8771A1902F45700BDA96B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE8771B1902F45700BDA96B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE877301902F45700BDA96B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE877311902F45700BDA96B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE877351902F45700BDA96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAE877361902F45700BDA96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE877381902F45700BDA96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CercaPix/CercaPix-Prefix.pch";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = "CercaPix/CercaPix-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAE877391902F45700BDA96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CercaPix/CercaPix-Prefix.pch";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = "CercaPix/CercaPix-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAE8773B1902F45700BDA96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CercaPix.app/CercaPix";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CercaPix/CercaPix-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CercaPixTests/CercaPixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CAE8773C1902F45700BDA96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CercaPix.app/CercaPix";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CercaPix/CercaPix-Prefix.pch";
+				INFOPLIST_FILE = "CercaPixTests/CercaPixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE876FD1902F45700BDA96B /* Build configuration list for PBXProject "CercaPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE877351902F45700BDA96B /* Debug */,
+				CAE877361902F45700BDA96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE877371902F45700BDA96B /* Build configuration list for PBXNativeTarget "CercaPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE877381902F45700BDA96B /* Debug */,
+				CAE877391902F45700BDA96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE8773A1902F45700BDA96B /* Build configuration list for PBXNativeTarget "CercaPixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE8773B1902F45700BDA96B /* Debug */,
+				CAE8773C1902F45700BDA96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE876FA1902F45700BDA96B /* Project object */;
+}
