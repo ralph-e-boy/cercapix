@@ -10,6 +10,13 @@ If there is a map annotation selected, some details about the photo are shown.
 Swipe left and right on a photo (in detail mode) to page through the photos.
 Tap the detail photo to return to the grid view of the list.
 
+
+#screenshots
+<img src="Images.xcassets/LaunchImage.launchimage/Default%402x-1.png" alt="loading screen" style="width:320px;height:568px">
+<img src="https://raw.githubusercontent.com/ralph-e-boy/cercapix/master/IMG_6318.PNG" alt="map" style="width:320px;height:568px">
+<img src="https://raw.githubusercontent.com/ralph-e-boy/cercapix/master/IMG_6321.PNG" alt="map" style="width:320px;height:568px">
+<br/>
+
 The app tries to lazy-load all image assets, using a category on UIImageView which asynchronously downloads an image while setting a placeholder..
 It will attempt one retry before giving up, if the image download fails..
 
