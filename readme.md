@@ -14,7 +14,7 @@ Tap the detail photo to return to the grid view of the list.
 #screenshots
 <img src="Images.xcassets/LaunchImage.launchimage/Default%402x-1.png" alt="loading screen" style="width:320px;height:568px">
 <img width="320" height="568" src="https://raw.githubusercontent.com/ralph-e-boy/cercapix/master/IMG_6318.PNG" alt="map">
-<img width="320" height="568" src="https://raw.githubusercontent.com/ralph-e-boy/cercapix/master/IMG_6321.PNG" alt="detail">
+<img align="left" width="320" height="568" src="https://raw.githubusercontent.com/ralph-e-boy/cercapix/master/IMG_6321.PNG" alt="detail">
 <br/>
 
 The app tries to lazy-load all image assets, using a category on UIImageView which asynchronously downloads an image while setting a placeholder..
