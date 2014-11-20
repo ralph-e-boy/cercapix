@@ -11,11 +11,11 @@ Swipe left and right on a photo (in detail mode) to page through the photos.
 Tap the detail photo to return to the grid view of the list.
 
 The app tries to lazy-load all image assets, using a category on UIImageView which asynchronously downloads an image while setting a placeholder..
-It will attempt one retry before giving up, if the image donwload fails..
+It will attempt one retry before giving up, if the image download fails..
 
 The api ingestion method is to serialize the api response as JSON using the built-in json serialzation library, which returns an NSDictionary. Since this app only uses a small portion of the Instagram api, the entries are then retrieved with accessor convenience methods which are added to NSDictionary via a category, `NSDictionary+instagram_api`.
 When I started doing that I thought maybe I could use `typedef`s to hide this better,
-but you can't write a category on a typedef'd object. Next time I will subclass NSDictionary!
+but you can't write a category on a typedef'd object. 
 
 
 ### Prerequisites
@@ -49,6 +49,6 @@ This app will run on both iPhone and iPad.  (mainly tested on iphone though)
 - If the GPS does not have a good fix, the map region zoom level is wonky
 - iPad UI needs work
 - If left running for a long time, images fail to download. This probably has something to do with the not-very-robust ImageView category running out of retries.
-- Sometimes results appear outside of the user-defined search radius.  Without getting out my cartography tools, I am guessing this is on istagram's side ;-)
+- Sometimes results appear outside of the user-defined search radius.  Without getting out my cartography tools, I am guessing this is on instagram's side ;-)
 
 
