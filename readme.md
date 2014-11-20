@@ -11,7 +11,7 @@ Swipe left and right on a photo (in detail mode) to page through the photos.
 Tap the detail photo to return to the grid view of the list.
 
 
-#screenshots
+### Screenshots
 <img align="left"  width="320" height="568" src="https://raw.githubusercontent.com/ralph-e-boy/cercapix/master/IMG_6318.PNG" alt="map">
 <img width="320" height="568" src="https://raw.githubusercontent.com/ralph-e-boy/cercapix/master/IMG_6321.PNG" alt="detail">
 <br/>
